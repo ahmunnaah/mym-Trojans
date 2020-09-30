@@ -7,9 +7,6 @@
   </head>
   <body>
     <form action="login_handler.php" method="post">
-      <div class="imgcontainer">
-        <img src="avatar.jpg" alt="Avatar" class="avatar">
-      </div>
 
       <div class="container">
         <label><b>Enter Username</b></label>
@@ -17,8 +14,6 @@
 
         <label><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="pass" required autocomplete="off">
-
-
 
       </div>
 

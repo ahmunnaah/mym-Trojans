@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$database = "dorm";
+$database = "spaceo";
 
 $db = mysqli_connect($host, $user, $pass, $database);
 ?>
