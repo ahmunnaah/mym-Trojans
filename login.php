@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Admin Login</title>
+    <title>User Login</title>
     <link rel="stylesheet" href="login.css" type="text/css">
   </head>
   <body>
-    <form action="admin_login_handler.php" method="post">
+    <form action="login_handler.php" method="post">
       <div class="imgcontainer">
         <img src="avatar.jpg" alt="Avatar" class="avatar">
       </div>
