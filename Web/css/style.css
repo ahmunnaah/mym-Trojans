@@ -193,8 +193,12 @@ a{
 
 .sections{
 	background-color: red;
-	height: 500px;
+	height: 2500px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /*games section*/
@@ -203,7 +207,6 @@ a{
 	height:66%;
 	width: 23%;
 	text-align: center;
-	float: left;
 	margin: 85px 10px;
 	margin-left: 35px;
 }
@@ -232,7 +235,6 @@ a{
 	border:1px solid white;
 	height: 66%;
 	width: 23%;
-	float: left;
 	margin: 85px 5px;
 
 }
@@ -261,7 +263,6 @@ a{
 	border:1px solid white;
 	height: 66%;
 	width: 23%;
-	float: left;
 	margin: 85px 5px;
 }
 
@@ -288,7 +289,6 @@ a{
 .fictions{
 	height: 66%;
 	width: 23%;
-	float: left;
 	margin: 85px 5px;
 	border:1px solid white;
 }
