@@ -37,15 +37,6 @@ a{
 	height: 20%;
 }
 
-
- /* logo */
-.logo{
-	height: 100%;
-	width: 15%;
-	float: left;
-
-}
-
 /* nav bar start */
 
 .menu{
@@ -54,11 +45,6 @@ a{
 	float: right;
 }
 
-.menu_header{
-	height: 100%;
-	width: 80%;
-	float: left;
-}
 
 .login{
 	height: 100%;
@@ -70,6 +56,9 @@ a{
 
 .logo{
 	text-align: center;
+	height: 100%;
+	width: 15%;
+	float: left;
 }
 
 .logo h2{
@@ -84,6 +73,9 @@ a{
 
 .menu_header{
 	text-align: right;
+	height: 100%;
+	width: 80%;
+	float: left;
 }
 
 .menu_header ul li{
@@ -97,13 +89,13 @@ a{
 	padding: 10px 30px;
 	display: block;
 	color: white;
-	font-size: 15px;
+	font-size: 18px;
 	font-family: mont;
 	font-weight: bold;
 }
 
 .menu_header ul li:hover a{
-	color: brown;
+	color: #d9d9d9;
 }
 
 .menu_header ul li ul{
@@ -459,7 +451,7 @@ a{
 .contact_content{
 	height: 100%;
 	width: 50%;
-	margin: auto;	
+	margin: auto;
 	margin-top: 50px;
 }
 
