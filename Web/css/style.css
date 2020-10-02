@@ -20,8 +20,11 @@ a{
 	font-family: rale;
 }
 
+body{
+  background-image: url(../images/bg.webp);
+}
+
 .main{
-	background-image: url(../../images/bg.webp);
 	height: 660px;
 }
 
@@ -191,7 +194,7 @@ a{
 /*Sections start*/
 
 .sections{
-	background-color: red;
+	background-image: url(../../images/bg.webp);
 	height: 2500px;
 	text-align: center;
 	display: flex;

@@ -13,9 +13,7 @@
 body{
   background-image: url(../../images/bg.webp);
 }
-.container {
-  padding: 15px;
-}
+
 h1{
   padding: -20px;
   font-family: rale;
