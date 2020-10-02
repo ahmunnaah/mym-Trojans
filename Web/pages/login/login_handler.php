@@ -13,8 +13,8 @@ if ($check > 0) {
 
   if($uname === $get['uname'] && password_verify($pass, $get['pass']))
   {
-    $_SESSION['name'] = $get['uname'];
-      header("location: ../reg/reg.php");
+    $_SESSION['uname'] = $get['uname'];
+      header("location: test.php");
   }
   else {
     header("location: login.php");
