@@ -21,9 +21,9 @@
 
 			<div class="form" action="login_handler.php" method="post" >
 				<label>Enter your email or phone</label>
-				<input type="text" placeholder="Email or Phone" name="uname" required>
+				<input type="text" name="uname" required>
 				<label>Enter your password</label>
-			    <input type="password" placeholder="Password" name="pass" required>
+			    <input type="password" name="pass" required>
 			    <button>Sign in</button>
 			 </div>
 
