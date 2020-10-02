@@ -32,11 +32,10 @@
 						</ul>
 					</div>
 					<div class="login">
-<<<<<<< HEAD:Web/index.html
+
 						<button> <a href="pages/login/login.php"></a> Log in</button>
-=======
 					 <a href="login/login.php">	<button> Log in</button></a>
->>>>>>> d48f6c4e5ed07024098b89b0e7a32e71d4496415:Web/pages/index.php
+
 					</div>
 
 				</div>
