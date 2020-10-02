@@ -20,7 +20,7 @@
 
 				<!-- menu start -->
 
-<div class="menu">
+				<div class="menu">
 					<div class="menu_header">
 						<ul>
 							<li><a href="">Home</a></li>
