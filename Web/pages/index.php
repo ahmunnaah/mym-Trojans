@@ -64,7 +64,7 @@
 		<div class="games">
 				<div class="text">
 				<h3>Ready for some actions? <br> Play Now!</h3>
-			</div>
+			 </div>
 		</div>
 
 		<!-- 2nd section -->
