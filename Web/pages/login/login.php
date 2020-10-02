@@ -19,16 +19,15 @@
 				<h1>Welcome to Space_O!</h1>
 				<p>Don't miss new updates! Sign in to Stay connected</p>
 			</div>
+			<div class="form">
 			<form action="login_handler.php" method="post">
-				<div class="form">
 					<label>Enter your email or phone</label>
 					<input type="text" placeholder="Email or Phone" name="uname">
 					<label>Enter your password</label>
 						<input type="password" placeholder="Password" name="pass">
 						<button type="submit">Sign in</button>
-				 </div>
 			</form>
-
+			</div>
 
 			<div class="ending">
 				<span><a href="">Forgot Password?</a></span>
