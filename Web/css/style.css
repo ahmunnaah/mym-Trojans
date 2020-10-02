@@ -193,8 +193,12 @@ a{
 
 .sections{
 	background-color: red;
-	height: 500px;
+	height: 2500px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /*games section*/
@@ -203,7 +207,7 @@ a{
 	height:66%;
 	width: 23%;
 	text-align: center;
-	float: left;
+
 	margin: 85px 10px;
 	margin-left: 35px;
 }
