@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<?php include_once "../db.php" ?>
 <html>
 <head>
 	<title>Log in</title>
