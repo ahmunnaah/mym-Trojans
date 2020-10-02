@@ -24,7 +24,7 @@
 				<input type="text" name="uname" required>
 				<label>Enter your password</label>
 			    <input type="password" name="pass" required>
-			    <button>Sign in</button>
+			    <button type="submit">Sign in</button>
 			 </div>
 
 			<div class="ending">
