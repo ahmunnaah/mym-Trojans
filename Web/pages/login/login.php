@@ -19,17 +19,17 @@
 				<p>Don't miss new updates! Sign in to Stay connected</p>
 			</div>
 
-			<div class="form">
+			<div class="form" action="login_handler.php" method="post" >
 				<label>Enter your email or phone</label>
-				<input type="text" placeholder="Email or Phone">
+				<input type="text" placeholder="Email or Phone" name="uname" required>
 				<label>Enter your password</label>
-			    <input type="password" placeholder="Password">
+			    <input type="password" placeholder="Password" name="pass" required>
 			    <button>Sign in</button>
 			 </div>
 
 			<div class="ending">
 				<span><a href="">Forgot Password?</a></span>
-				<p>New to SpaceO? <a href="">Join now</a></p>
+				<p>New to SpaceO? <a href="../reg/reg.php">Join now</a></p>
 			</div>
 
 		</div>

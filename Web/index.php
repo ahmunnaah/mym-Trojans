@@ -23,7 +23,7 @@
 				<div class="menu">
 					<div class="menu_header">
 						<ul>
-							<li><a href="">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="">Sections</a>
 							</li>
 							<li><a href="">About Us</a></li>
@@ -31,7 +31,7 @@
 						</ul>
 					</div>
 					<div class="login">
-						<button> <a href="pages/login/login.php"> Log in</a></button>
+					 <a href="pages/login/login.php">	<button> Log in</button></a>
 					</div>
 
 				</div>
