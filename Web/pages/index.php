@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<?php include_once "db.php"?>
 <html lang="en-US">
 <head>
 	<title>Home</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 </head>
 <body>
@@ -20,25 +21,22 @@
 
 				<!-- menu start -->
 
-<div class="menu">
+				<div class="menu">
 					<div class="menu_header">
 						<ul>
-							<li><a href="">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="">Sections</a>
-								<ul>
-									<li><a href="">Games</a></li>
-									<li><a href="pages/Explore/explore.html">Explore</a></li>
-									<li><a href="">Research</a></li>
-									<li><a href="">Science Fictions</a></li>
-								</ul>
-
 							</li>
 							<li><a href="">About Us</a></li>
 							<li><a href="">Contact Us</a></li>
 						</ul>
 					</div>
 					<div class="login">
+<<<<<<< HEAD:Web/index.html
 						<button> <a href="pages/login/login.php"></a> Log in</button>
+=======
+					 <a href="login/login.php">	<button> Log in</button></a>
+>>>>>>> d48f6c4e5ed07024098b89b0e7a32e71d4496415:Web/pages/index.php
 					</div>
 
 				</div>
