@@ -1,3 +1,16 @@
+<?php
+include_once 'db.php';
+
+$planet_name = mysqli_real_escape_string($db, $_POST['planet_name']);
+
+$sql = "SELECT * FROM planet WHERE planet_name = '$planet_name';";
+
+$res = mysqli_query($db,$sql);
+$check = mysqli_num_rows($res);
+
+if ($check > 0) {
+    while($row = mysqli_fetch_assoc($res)) {
+ ?>
 
 <html lang="en" dir="ltr">
   <head>
@@ -98,66 +111,86 @@
     </div>
     <div class="w3-container w3-back a">
       <div class="planet_name">
-        <p>Planet name</p>
+        <p>
+          <?php
+                echo($row['planet_name']);
+            ?>
+        </p>
       </div>
     </div>
     <div class="w3-container  b">
     <div class="w3-container p_data">
-  <h1>Various characteristic data is shown about "in php planet name"</h1>
+  <h1>Various characteristic data is shown about "<?php
+        echo($row['planet_name']);
+    ?>"</h1>
 <div class="data-p1 w3-half">
   <table class="w3-table op">
     <tr>
-      <th>Characteristics</th>
-      <th>Values(in metric)</th>
+      <td>Mass (10<sup>24</sup>kg)</td>
+      <td><?php
+            echo($row['mass']);
+        ?></td>
     </tr>
     <tr>
-      <td>Jill</td>
-      <td>Smith</td>
+      <td>Diameter(km)</td>
+      <td><?php
+            echo($row['diameter']);
+        ?></td>
     </tr>
     <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
+      <td>Density(kg/m<sup>3</sup>)</td>
+      <td><?php
+            echo($row['density']);
+        ?></td>
     </tr>
     <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
+      <td>Gravity(m/s<sup>2</sup>)</td>
+      <td><?php
+            echo($row['gravity']);
+        ?></td>
     </tr>
     <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
+      <td>Length of day(hour)</td>
+      <td><?php
+            echo($row['day_length']);
+        ?></td>
     </tr>
-    <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
-    </tr>
+
   </table>
 </div>
 <div class="data-p2 w3-half">
   <table class="w3-table op">
     <tr>
-      <th>Characteristics</th>
-      <th>Values(in metric)</th>
+      <td>Distance from Sun (10<sup>6</sup>km)</td>
+      <td><?php
+            echo($row['distance_from_sun']);
+        ?></td>
     </tr>
     <tr>
-      <td>Jill</td>
-      <td>Smith</td>
+      <td>Orbital Velocity(km/s)</td>
+      <td><?php
+            echo($row['orbital_velocity']);
+        ?></td>
     </tr>
     <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
+      <td>Mean Temperature (C)</td>
+      <td><?php
+            echo($row['mean_temp']);
+        ?></td>
     </tr>
     <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
+      <td>Surface Pressure(bars)</td>
+      <td><?php
+            echo($row['surface_press']);
+        ?></td>
     </tr>
     <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
+      <td>Number of Moon</td>
+      <td><?php
+            echo($row['moon_number']);
+        ?></td>
     </tr>
-    <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
-    </tr>
+
   </table>
 </div>
 
@@ -174,3 +207,4 @@
     </div>
   </body>
 </html>
+<?php }} ?>
