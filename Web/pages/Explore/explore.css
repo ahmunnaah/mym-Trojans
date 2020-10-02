@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	
 }
 
 @font-face{
@@ -12,9 +13,15 @@
 	src: url("../../fonts/Raleway-MediumItalic.ttf");
 	font-family: rale;
 }
+body{
+	background-image: url("../../images/bg.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
 
 .explore{
-	background-color: red;
+
 	height: 2500px;
 	display: flex;
 	justify-content: center;
