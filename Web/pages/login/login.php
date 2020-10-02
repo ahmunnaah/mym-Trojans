@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<?php
-include_once "../nav_bar/menu.php"
-?>
+
 <html>
 <head>
 	<title>Log in</title>
 	<link rel="stylesheet" type="text/css" href="login_style.css">
 </head>
 <body>
+	<div class="">
+		<?php
+		include_once "../nav_bar/menu.php"
+		?>
+	</div>
 	<div class="log">
 		<div class="log_content">
 			<!-- login form -->

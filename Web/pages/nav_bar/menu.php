@@ -20,7 +20,7 @@
           <div class="menu">
             <div class="menu_header">
               <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="">Sections</a>
                   <ul>
                     <li><a href="">Games</a></li>
