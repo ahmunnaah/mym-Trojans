@@ -27,7 +27,7 @@
     }
 
     .main{
-      background-image: linear-gradient(#400080, #000000);
+      
     }
 
     .mid{
@@ -165,7 +165,7 @@
           <div class="menu">
             <div class="menu_header">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.php">Home</a></li>
                 <li><a href="">Sections</a>
                 </li>
                 <li><a href="">About Us</a></li>

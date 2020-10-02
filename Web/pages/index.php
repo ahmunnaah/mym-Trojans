@@ -32,8 +32,6 @@
 						</ul>
 					</div>
 					<div class="login">
-
-						<button> <a href="pages/login/login.php"></a> Log in</button>
 					 <a href="login/login.php">	<button> Log in</button></a>
 
 					</div>
