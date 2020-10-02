@@ -16,7 +16,7 @@
 		<div class="log_content">
 			<!-- login form -->
 			<div class="heading">
-				<h1>Welcome to Space_O!</h1>
+				<h1>Welcome to SpaceO!</h1>
 				<p>Don't miss new updates! Sign in to Stay connected</p>
 			</div>
 			<div class="form">
