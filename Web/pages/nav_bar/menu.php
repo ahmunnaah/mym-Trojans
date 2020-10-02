@@ -25,10 +25,9 @@
       src: url("../../fonts/Raleway-MediumItalic.ttf");
       font-family: rale;
     }
-
-    .main{
-      
-    }
+.main{
+  background-color: transparent;
+}
 
     .mid{
       width: 70%;
@@ -177,6 +176,8 @@
             </div>
 
           </div>
+</div>
+</div>
 </div>
   </body>
 </html>

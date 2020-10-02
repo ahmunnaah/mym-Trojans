@@ -4,13 +4,14 @@
 <head>
 	<title>Log in</title>
 	<link rel="stylesheet" type="text/css" href="login_style.css">
+	<style>
+		body{
+			background-image: linear-gradient(#400080, #000000);
+		}
+	</style>
 </head>
 <body>
-	<div>
-		<?php
-		include_once "../nav_bar/menu.php"
-		?>
-	</div>
+
 
 	<div class="log">
 		<div class="log_content">

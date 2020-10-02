@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="research.css">
   </head>
   <body>
+    <div >
+      <?php include "../nav_bar/menu.php"?>
+    </div>
     <div class="research_peek">
       <div class="one">
           <img src="../../images/st1.jpg" height="98%" width="98%" style="margin-top:3px;">
