@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include_once "../nav_bar/menu.php"
+?>
 <html>
 <head>
 	<title>Log in</title>
