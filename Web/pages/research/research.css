@@ -31,10 +31,11 @@ body{
 }
 
 .one{
-  background-color: coral;
+  background-color: white;
   height: 80%;
   width: 20%;
   margin: 10px;
+  text-align: center;
 }
 
 .two{
@@ -43,6 +44,7 @@ body{
   width: 20%;
   margin: 10px;
   margin-top: 70px;
+  text-align: center;
 }
 /* research_peek end */
 
@@ -64,6 +66,8 @@ body{
   float: left;
   margin-top: 50px;
   margin-left: 50px;
+  text-align: center;
+  background-color: white;
 }
 
 .text{
@@ -97,5 +101,9 @@ body{
   background-image: linear-gradient(to right, #0039e6 ,#944dff);
   color: white;
   font-family: mont;
+}
+
+.text button:hover{
+  cursor: pointer;
 }
 /* research_content end */
