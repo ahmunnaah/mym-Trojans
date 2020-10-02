@@ -16,7 +16,7 @@
 
 				<!-- logo part -->
 				<div class="logo">
-					<h2>Space_O</h2>
+					<h2>SpaceO</h2>
 				</div>
 
 				<!-- menu start -->
