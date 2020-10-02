@@ -3,6 +3,16 @@
 	padding: 0px;
 }
 
+@font-face{
+	src: url("../../fonts/Montserrat-Light.ttf");
+	font-family: mont;
+}
+
+@font-face{
+	src: url("../../fonts/Raleway-MediumItalic.ttf");
+	font-family: rale;
+}
+
 .explore{
 	background-color: red;
 	height: 2500px;
@@ -16,9 +26,18 @@
 .explore_content{
 	background-color: green;
  	height: 100%;
-    width: 70%;
-    margin: 10px;
+  width: 70%;
+  margin: 10px;
+	text-align: center;
+}
 
+.explore_content h1{
+	font-family: rale;
+}
+
+.explore_content h3{
+	font-family: mont;
+	margin: 5px;
 }
 
 .planets{
