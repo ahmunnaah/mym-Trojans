@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<?php include_once "db.php"?>
 <html lang="en-US">
 <head>
 	<title>Home</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 </head>
 <body>
@@ -31,7 +32,7 @@
 						</ul>
 					</div>
 					<div class="login">
-					 <a href="pages/login/login.php">	<button> Log in</button></a>
+					 <a href="login/login.php">	<button> Log in</button></a>
 					</div>
 
 				</div>
