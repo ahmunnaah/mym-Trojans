@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="form" action="login_handler.php" method="post" >
-				<label>Enter your email or phone</label>
+				<label>Enter your Username</label>
 				<input type="text" name="uname" required>
 				<label>Enter your password</label>
 			    <input type="password" name="pass" required>

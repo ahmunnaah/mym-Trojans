@@ -14,7 +14,7 @@ if ($check > 0) {
   if($uname === $get['uname'] && password_verify($pass, $get['pass']))
   {
     $_SESSION['name'] = $get['uname'];
-      header("location: index.php");
+      header("location: ../../index.php");
   }
   else {
     header("location: login.php");
