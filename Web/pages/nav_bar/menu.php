@@ -22,13 +22,6 @@
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">Sections</a>
-                  <ul>
-                    <li><a href="">Games</a></li>
-                    <li><a href="pages/Explore/explore.html">Explore</a></li>
-                    <li><a href="">Research</a></li>
-                    <li><a href="">Science Fictions</a></li>
-                  </ul>
-
                 </li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact Us</a></li>
