@@ -18,14 +18,17 @@
 				<h1>Welcome to Space_O!</h1>
 				<p>Don't miss new updates! Sign in to Stay connected</p>
 			</div>
+			<form action="index.html" method="post">
+				<div class="form" action="login_handler.php" method="post" >
 
-			<div class="form" action="login_handler.php" method="post" >
-				<label>Enter your Username</label>
-				<input type="text" name="uname" required>
-				<label>Enter your password</label>
-			    <input type="password" name="pass" required>
-			    <button type="submit">Sign in</button>
-			 </div>
+					<label>Enter your Username</label>
+					<input type="text" name="uname" required>
+					<label>Enter your password</label>
+				    <input type="password" name="pass" required>
+				    <button type="submit">Sign in</button>
+				 </div>
+			</form>
+
 
 			<div class="ending">
 				<span><a href="">Forgot Password?</a></span>
