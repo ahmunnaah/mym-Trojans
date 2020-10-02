@@ -1,5 +1,5 @@
 <?php
-include_once 'db.php';
+include_once '../db.php';
 session_start();
 $uname = mysqli_real_escape_string($db, $_POST['uname']);
 $pass = mysqli_real_escape_string($db, $_POST['pass']);
@@ -14,7 +14,7 @@ if ($check > 0) {
   if($uname === $get['uname'] && password_verify($pass, $get['pass']))
   {
     $_SESSION['name'] = $get['uname'];
-      header("location: ../reg/reg.php");
+      header("location: ../index.php");
   }
   else {
     header("location: login.php");
