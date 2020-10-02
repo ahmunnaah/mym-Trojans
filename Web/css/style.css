@@ -20,9 +20,11 @@ a{
 	font-family: rale;
 }
 
-.main{
-	background-image: linear-gradient(#400080, #000000);
+body{
+  background-image: url(../images/bg.webp);
+}
 
+.main{
 	height: 660px;
 }
 
@@ -192,7 +194,7 @@ a{
 /*Sections start*/
 
 .sections{
-	background-color: red;
+	background-image: url(../../images/bg.webp);
 	height: 2500px;
 	text-align: center;
 	display: flex;

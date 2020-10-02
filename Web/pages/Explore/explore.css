@@ -3,6 +3,16 @@
 	padding: 0px;
 }
 
+@font-face{
+	src: url("../../fonts/Montserrat-Light.ttf");
+	font-family: mont;
+}
+
+@font-face{
+	src: url("../../fonts/Raleway-MediumItalic.ttf");
+	font-family: rale;
+}
+
 .explore{
 	background-color: red;
 	height: 2500px;
@@ -16,42 +26,125 @@
 .explore_content{
 	background-color: green;
  	height: 100%;
-    width: 70%;
-    margin: 10px;
-
+  width: 70%;
+  margin: 10px;
+	text-align: center;
 }
 
+.explore_content h1{
+	font-family: rale;
+}
+
+.explore_content h3{
+	font-family: mont;
+	margin: 5px;
+}
+
+/* planets page start */
 .planets{
-	background-color: yellow;
+	background-image: url(../../images/pl.webp);
+	background-size: 100% 90%;
 	height: 200%;
-    width: 70%;
-    margin: 10px;
+  width: 70%;
+  margin: 10px;
+	position: relative;
 }
+
+.planets .text{
+	text-align: center;
+	font-family: mont;
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+/* planets page end */
+
+/* rockets page start */
 
 .rockets{
-	background-color: orange;
+	background-image: url(../../images/rc.webp);
+	background-size: 100% 90%;
 	height: 200%;
-    width: 70%;
-    margin: 10px;
+  width: 70%;
+  margin: 10px;
+	position: relative;
 }
+
+.rockets .text{
+	text-align: center;
+	font-family: mont;
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+/* rockets page end*/
+
+/* satellite page start */
 
 .satellite{
-	background-color: grey;
+	background-image: url(../../images/st.webp);
+	background-size: 100% 90%;
 	height: 200%;
-    width: 70%;
-    margin: 10px;
+  width: 70%;
+  margin: 10px;
+	position: relative;
   }
 
-.space_obj{
-	background-color: blue;
-	height: 200%;
-    width: 70%;
-    margin: 10px;
+.satellite .text{
+	text-align: center;
+	font-family: mont;
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
 
-.blackhole{
-	background-color: pink;
+/* satellite page end */
+
+/* space object page start */
+
+.space_obj{
+	background-image: url(../../images/so.webp);
+	background-size: 100% 90%;
 	height: 200%;
-    width: 70%;
-    margin: 10px;
+  width: 70%;
+  margin: 10px;
+	position: relative;
 }
+
+.space_obj .text{
+	text-align: center;
+	font-family: mont;
+	background-color: yellow;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+/* space object page start */
+
+/* space object page start */
+.blackhole{
+	background-image: url(../../images/bl.webp);
+	background-size: 100% 90%;
+	height: 200%;
+  width: 70%;
+  margin: 10px;
+	position: relative;
+}
+
+.blackhole .text{
+	text-align: center;
+ 	font-family: mont;
+ 	background-color: yellow;
+ 	height: 50px;
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0px;
+}
+/* space object page end */
