@@ -202,7 +202,7 @@ if ($check > 0) {
 
       </div>
       <div class="w3-container w3-half likha">
-        <h1>Some Facts!!</h1>
+        <h1>Some Facts!! </h1>
         <h3><?php
               echo($row['detail_des']);
           ?></h3>
