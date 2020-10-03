@@ -216,7 +216,10 @@ body{
 	height: 60%;
 	position: relative;
 	margin: 10px;
+}
 
+.games:hover .text{
+	background-image: linear-gradient(red,orange);
 }
 
 .games .text{
@@ -247,6 +250,10 @@ body{
 	margin: 10px;
 }
 
+.simulation:hover .text{
+	background-image: linear-gradient(red,orange);
+}
+
 .simulation .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
 	text-align: center;
@@ -273,6 +280,10 @@ body{
 	height: 60%;
 	position: relative;
 	margin: 10px;
+}
+
+.research:hover .text{
+	background-image: linear-gradient(red,orange);
 }
 
 .research .text{
@@ -303,6 +314,11 @@ body{
 	position: relative;
 	margin: 10px;
 }
+
+.fictions:hover .text{
+	background-image: linear-gradient(red,orange);
+}
+
 
 .fictions .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
