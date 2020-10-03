@@ -209,108 +209,113 @@ body{
 
 /*games section*/
 .games{
-	background-image: url(../images/);
-	border:1px solid white;
-	height:66%;
-	width: 23%;
-	text-align: center;
-	margin: 85px 10px;
-	margin-left: 35px;
+	background-image: url(../images/games.webp);
+	background-size: 100% 90%;
+	border: white 2px solid;
+	width: 60%;
+	height: 60%;
+	position: relative;
+	margin: 10px;
+
 }
 
 .games .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
+	text-align: center;
+	font-family: mont;
 	height: 80px;
-
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
 
 .games .text h3{
 	color: white;
-	font-family: rale;
 	padding: 15px;
 }
 
-.games img{
-	height: 180px;
-	width: 225px;
-	margin: 33px 0px;
-}
 /*games section end*/
 
 /*simulation section*/
 .simulation{
 	background-image: url(../images/explore.webp);
-	border:1px solid white;
-	height: 66%;
-	width: 23%;
-	margin: 85px 5px;
-
+	background-size: 100% 90%;
+	border: white 2px solid;
+	width: 60%;
+	height: 60%;
+	position: relative;
+	margin: 10px;
 }
 
 .simulation .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
+	text-align: center;
+	font-family: mont;
 	height: 80px;
-
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
 
 .simulation .text h3{
 	color: white;
-	font-family: rale;
 	padding: 15px;
 }
 
-.simulation img{
-	height: 180px;
-	width: 225px;
-	margin: 33px 5px;
-}
 /*simulation section end*/
 
 /*research section*/
 .research{
 	background-image: url(../images/research.webp);
-	border:1px solid white;
-	height: 66%;
-	width: 23%;
-	margin: 85px 5px;
+	background-size: 100% 90%;
+	border: white 2px solid;
+	width: 60%;
+	height: 60%;
+	position: relative;
+	margin: 10px;
 }
 
 .research .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
+	text-align: center;
+	font-family: mont;
 	height: 80px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 
 }
 
 .research .text h3{
 	color: white;
-	font-family: rale;
 	padding: 15px;
 }
 
-.research img{
-	height: 180px;
-	width: 225px;
-	margin: 33px 0px;
-}
 /*research section end*/
 
 /*fictions section*/
 .fictions{
-	background-image: url(../images/sci fi.webp);
-	height: 66%;
-	width: 23%;
-	margin: 85px 5px;
-	border:1px solid white;
+	background-image: url(../images/scifi.webp);
+	background-size: 100% 90%;
+	border: white 2px solid;
+	width: 60%;
+	height: 60%;
+	position: relative;
+	margin: 10px;
 }
 
 .fictions .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
+	text-align: center;
+	font-family: mont;
 	height: 80px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
 
 .fictions .text h3{
 	color: white;
-	font-family: rale;
 	padding: 15px;
 }
 
@@ -326,8 +331,7 @@ body{
 /* About start */
 
 .about{
-	background-image: linear-gradient(#400080, #000000);
-	height: 400px;
+	height: 1450px;
 	margin-top: 2px;
 	overflow: hidden;
 }
@@ -453,14 +457,14 @@ body{
 /* contact */
 
 .contact{
-	background-image: linear-gradient(#400080, #000000);
-	height: 400px;
+	height: 1500px;
+	width: 100%;
 	overflow: hidden;
 }
 
 .contact_content{
 	height: 100%;
-	width: 50%;
+	width: 100%;
 	margin: auto;
 	margin-top: 50px;
 }
