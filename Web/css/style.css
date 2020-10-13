@@ -216,7 +216,14 @@ body{
 	height: 60%;
 	position: relative;
 	margin: 10px;
+}
 
+.games:hover{
+	transform: scale(1.1);
+}
+
+.games:hover .text{
+	background-image: linear-gradient(red,orange);
 }
 
 .games .text{
@@ -247,6 +254,14 @@ body{
 	margin: 10px;
 }
 
+.simulation:hover .text{
+	background-image: linear-gradient(red,orange);
+}
+
+.simulation:hover{
+	transform: scale(1.1);
+}
+
 .simulation .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
 	text-align: center;
@@ -273,6 +288,14 @@ body{
 	height: 60%;
 	position: relative;
 	margin: 10px;
+}
+
+.research:hover .text{
+	background-image: linear-gradient(red,orange);
+}
+
+.research:hover{
+	transform: scale(1.1);
 }
 
 .research .text{
@@ -302,6 +325,14 @@ body{
 	height: 60%;
 	position: relative;
 	margin: 10px;
+}
+
+.fictions:hover .text{
+	background-image: linear-gradient(red,orange);
+}
+
+.fictions:hover{
+	transform: scale(1.1);
 }
 
 .fictions .text{
