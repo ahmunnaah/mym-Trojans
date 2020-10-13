@@ -217,14 +217,18 @@ body{
 	position: relative;
 	margin: 10px;
 }
+<<<<<<< HEAD
 
 .games:hover{
 	transform: scale(1.1);
 }
+=======
+>>>>>>> c833a74a29f4a28056e198ef85880f3056ac444b
 
 .games:hover .text{
 	background-image: linear-gradient(red,orange);
 }
+
 
 .games .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
@@ -258,10 +262,13 @@ body{
 	background-image: linear-gradient(red,orange);
 }
 
+<<<<<<< HEAD
 .simulation:hover{
 	transform: scale(1.1);
 }
 
+=======
+>>>>>>> c833a74a29f4a28056e198ef85880f3056ac444b
 .simulation .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
 	text-align: center;
@@ -294,10 +301,13 @@ body{
 	background-image: linear-gradient(red,orange);
 }
 
+<<<<<<< HEAD
 .research:hover{
 	transform: scale(1.1);
 }
 
+=======
+>>>>>>> c833a74a29f4a28056e198ef85880f3056ac444b
 .research .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
 	text-align: center;
@@ -331,9 +341,12 @@ body{
 	background-image: linear-gradient(red,orange);
 }
 
+<<<<<<< HEAD
 .fictions:hover{
 	transform: scale(1.1);
 }
+=======
+>>>>>>> c833a74a29f4a28056e198ef85880f3056ac444b
 
 .fictions .text{
 	background-image: linear-gradient(to right, #000066, #7300e6);
